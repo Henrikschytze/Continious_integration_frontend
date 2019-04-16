@@ -7,6 +7,6 @@
 #    that is where we will look for package.json/.nvmrc/etc not repo root!
 
 [build]
-  command = "./build.sh"
+  command = "git clone https://github.com/Novicell/novicell-components.git ./src && exec npm run fractal:build && npm run build:prod"
   base    = ""
   publish = "build/"
