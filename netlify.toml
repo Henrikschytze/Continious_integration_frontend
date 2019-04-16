@@ -9,4 +9,4 @@
 [build]
   base    = ""
   publish = "build/"
-  command = "./build.sh"
+  command = "chmod +x build.sh"
