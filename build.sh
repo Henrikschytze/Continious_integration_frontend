@@ -1,2 +1,2 @@
 #!/bin/bash
-npm run fractal:build && npm run build:prod
+exec npm run fractal:build && npm run build:prod
