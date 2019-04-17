@@ -10,4 +10,4 @@
   # The chmod allows for the shell script to run
   command = "chmod +x ./build.sh && ./build.sh"
   base    = ""
-  publish = "build/"
+  publish = "/build/"
