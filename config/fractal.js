@@ -23,7 +23,7 @@ const novicellTheme = require('@frctl/mandelbrot')({
 
 /* Set the title of the project */
 fractal.set('project.title', 'Novicell Component Library');
-fractal.web.set('static.path', rootFolder + '/build/dist');
+fractal.web.set('static.path', rootFolder + '/dist');
 
 /* Tell Fractal where the components will live */
 fractal.components.set('path', config.componentsDir.main);
