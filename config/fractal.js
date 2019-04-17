@@ -110,7 +110,7 @@ instance.handlebars.registerHelper('compare', function (lvalue, rvalue, options)
 });
 
 // Web UI config
-fractal.web.set('builder.dest', path.join(config.root_folder + '/build'));
+fractal.web.set('builder.dest', path.join(config.root_folder + '/build/'));
 fractal.web.set('server.syncOptions', {
     // open: true, // open the server on 'gulp fractal'
     // browser: ['chrome'],

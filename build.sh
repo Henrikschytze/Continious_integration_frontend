@@ -17,4 +17,3 @@ npm run fractal:build
 npm run build:prod
 }
 clone_components
-cp -rf /dist/ /build/
