@@ -7,7 +7,7 @@
 #    that is where we will look for package.json/.nvmrc/etc not repo root!
 
 [build]
-  base    = ""
-  publish = "build/"
   # The chmod allows for the shell script to run
   command = "chmod +x ./build.sh && ./build.sh"
+  base    = ""
+  publish = "build/"
