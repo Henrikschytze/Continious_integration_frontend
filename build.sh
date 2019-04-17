@@ -12,6 +12,7 @@ build_site
 }
 build_site()
 { 
+echo "Building site"
 npm run fractal:build 
 npm run build:prod
 }
