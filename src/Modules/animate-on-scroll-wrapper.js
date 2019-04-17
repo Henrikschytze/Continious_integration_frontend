@@ -1,3 +1,0 @@
-function initAos(){
-    AOS.init({});
-}
