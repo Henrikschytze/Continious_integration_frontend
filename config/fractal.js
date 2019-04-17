@@ -23,7 +23,7 @@ const novicellTheme = require('@frctl/mandelbrot')({
 
 /* Set the title of the project */
 fractal.set('project.title', 'Novicell Component Library');
-fractal.web.set('static.path', rootFolder + '/dist');
+fractal.web.set('static.path', rootFolder + '/build/dist');
 
 /* Tell Fractal where the components will live */
 fractal.components.set('path', config.componentsDir.main);
@@ -110,7 +110,7 @@ instance.handlebars.registerHelper('compare', function (lvalue, rvalue, options)
 });
 
 // Web UI config
-fractal.web.set('builder.dest', path.join(config.root_folder + '/build/'));
+fractal.web.set('builder.dest', path.join(config.root_folder + '/build'));
 fractal.web.set('server.syncOptions', {
     // open: true, // open the server on 'gulp fractal'
     // browser: ['chrome'],
