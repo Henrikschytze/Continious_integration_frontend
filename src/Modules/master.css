@@ -64,7 +64,7 @@
 @import '../03-organisms/pageheaders/pageheader-video/pageheader-video.css';
 @import '../03-organisms/pageheaders/pageheader-dots/pageheader-dots.css';
 
-@import '../03-organisms/pageheaders/pageheader-video-fullscreen/pageheader-video-fullscreen.css';
+/* not included in this version @import '../03-organisms/pageheaders/pageheader-video-fullscreen/pageheader-video-fullscreen.css'; */
 
 /* Pages */
 @import '../04-pages/overlapping-sections/overlapping-sections.css';
