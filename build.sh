@@ -13,11 +13,13 @@ echo "Components copied to ./src"
 copy_dependencies()
 {
 echo "Attempting to add to package.json" 
+# The copyDependencies function rests in the components repo
+# So it is added along with the git clone performed in clone_components
 node ./src/copyDependencies.js 
 echo "installing new dependencies"
 npm install 
 }
-#Function for running actual build commands
+# Function for running actual build commands
 build_site()
 { 
 echo "Building site"
