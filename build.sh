@@ -17,7 +17,7 @@ echo "Attempting to add to package.json"
 # So it is added along with the git clone performed in clone_components
 node ./src/copyDependencies.js 
 echo "installing new dependencies"
-npm install 
+rm -rf node_modules && npm install
 }
 # Function for running actual build commands
 build_site()
@@ -26,5 +26,6 @@ echo "Building site"
 npm run build:prod
 npm run fractal:build 
 }
+# Run the functions
 clone_components
 build_site 
