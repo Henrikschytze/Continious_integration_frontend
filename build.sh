@@ -17,7 +17,7 @@ echo "Attempting to add to package.json"
 # So it is added along with the git clone performed in clone_components
 node ./src/copyDependencies.js 
 echo "installing new dependencies"
-rm -rf node_modules && npm update
+npm update
 }
 # Function for running actual build commands
 build_site()
