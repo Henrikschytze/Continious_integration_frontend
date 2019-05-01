@@ -6,7 +6,9 @@
 // import '../03-organisms/topbar/topbar-related/topbar-related';
 // import '../02-molecules/navigation/nav-trigger/nav-trigger';
 // import '../03-organisms/pageheaders/pageheader-video/pageheader-video--youtube';
-import "./logger.js";
+import { helloWorld } from 'hello-world-npm';
+
+console.log(helloWorld());
 // import NovicellLazyLoad from 'novicell-lazyload';
 // import debounce from 'lodash/debounce';
 
