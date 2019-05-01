@@ -16,7 +16,7 @@ echo "Attempting to add to package.json"
 # The copyDependencies function rests in the components repo
 # So it is added along with the git clone performed in clone_components
 node ./src/copyDependencies.js 
-echo "installing new dependencies"
+echo "Dependencies installed, now running npm update"
 npm update
 }
 # Function for running actual build commands
