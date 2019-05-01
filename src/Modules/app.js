@@ -6,9 +6,9 @@
 // import '../03-organisms/topbar/topbar-related/topbar-related';
 // import '../02-molecules/navigation/nav-trigger/nav-trigger';
 // import '../03-organisms/pageheaders/pageheader-video/pageheader-video--youtube';
+import "./logger.js";
+// import NovicellLazyLoad from 'novicell-lazyload';
+// import debounce from 'lodash/debounce';
 
-import NovicellLazyLoad from 'novicell-lazyload';
-import debounce from 'lodash/debounce';
-
-document.addEventListener('lazybeforeunveil', NovicellLazyLoad.lazyLoad, true);
-window.addEventListener('resize', debounce(NovicellLazyLoad.checkImages), 100, false);
+// document.addEventListener('lazybeforeunveil', NovicellLazyLoad.lazyLoad, true);
+// window.addEventListener('resize', debounce(NovicellLazyLoad.checkImages), 100, false);
