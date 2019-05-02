@@ -5,10 +5,8 @@
 // import '../02-molecules/navigation/nav-main-list-priority/nav-main-list-priority';
 // import '../03-organisms/topbar/topbar-related/topbar-related';
 // import '../02-molecules/navigation/nav-trigger/nav-trigger';
-// import '../03-organisms/pageheaders/pageheader-video/pageheader-video--youtube';
-import { helloWorld } from 'hello-world-npm';
+import '../03-organisms/pageheaders/pageheader-video/pageheader-video--youtube';
 
-console.log(helloWorld());
 // import NovicellLazyLoad from 'novicell-lazyload';
 // import debounce from 'lodash/debounce';
 
