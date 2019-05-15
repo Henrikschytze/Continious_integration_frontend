@@ -26,6 +26,8 @@ echo "Attempting to install the following dependencies... Please wait"
 # The copyDependencies function rests in the components repo
 # So it is added along with the git clone performed in clone_components
 node ./src/copyDependencies.js 
+echo "Not running npm update"
+#npm update
 }
 # Function for running actual build commands
 build_site()
