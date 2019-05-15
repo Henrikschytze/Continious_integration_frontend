@@ -8,8 +8,8 @@ git clone https://github.com/Henrikschytze/novicell-components.git tmp_src
 cp -a -rf ./tmp_src/* ./src/
 # Copying master.css and app.js from components to main dir
 echo "Overriding inner contents from master_modules/app.js and master.css to src/Modules"
-cat ./tmp_src/master_modules/app.js ./src/Modules/app.js
-cat ./tmp_src/master_modules/master.css ./src/Modules/master.css
+cat ./tmp_src/master_modules/app.js > ./src/Modules/app.js
+cat ./tmp_src/master_modules/master.css > ./src/Modules/master.css
 copy_dependencies
 rm -rf ./master_modules
 rm -rf ./tmp_src
