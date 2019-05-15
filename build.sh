@@ -1,12 +1,15 @@
 #!/bin/bash
 set -e
-#Function for cloning the repo and copying it into the src
+
+# Function for cloning the repo and copying it into the src
 clone_components()
 {
-echo "Starting clone and build scripts"
 git clone https://github.com/Henrikschytze/novicell-components.git tmp_src 
 cp -a -rf ./tmp_src/* ./src/
+# Copying master.css and app.js from components to main dir
+cp -a -rf ./tmp_src/master_modules/* ./src/Modules/
 copy_dependencies
+rm -rf ./master_modules
 rm -rf ./tmp_src
 echo "Components copied to ./src"
 }
