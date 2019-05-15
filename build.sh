@@ -7,7 +7,7 @@ clone_components()
 git clone https://github.com/Henrikschytze/novicell-components.git tmp_src 
 cp -a -rf ./tmp_src/* ./src/
 # Copying master.css and app.js from components to main dir
-cp -a -rf ./tmp_src/master_modules/* ./src/Modules/
+cp -a -rf ./tmp_src/master_modules/. ./src/Modules
 copy_dependencies
 rm -rf ./master_modules
 rm -rf ./tmp_src
