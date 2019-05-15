@@ -93,7 +93,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'eslint-loader',
                 options: {
-                    emitWarning: false,
+                    emitWarning: true,
                     failonError: false,
                     fix: true,
                     configFile: options.fullConfigsPath + '/scripts/.eslintrc',
